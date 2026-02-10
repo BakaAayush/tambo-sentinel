@@ -103,16 +103,17 @@ Try these prompts to see Sentinel in action:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sentinel.git
+# Fork and clone
+git clone https://github.com/BakaAayush/tambo-sentinel.git
 cd sentinel
 
 # Install dependencies
 npm install
 
-# Initialize Tambo (creates .env.local with your API key)
+# Set up Tambo
 npx tambo init
 
-# Start the development server
+# Start dev server
 npm run dev
 ```
 
