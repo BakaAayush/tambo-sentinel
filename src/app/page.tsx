@@ -80,14 +80,14 @@ function TerminalTypingEffect() {
               <div
                 key={lineIndex}
                 className={`${line.isError
-                    ? "text-red-400"
-                    : line.isWarning
-                      ? "text-amber-400"
-                      : line.isSuccess
-                        ? "text-emerald-400"
-                        : line.isOutput
-                          ? "text-slate-400"
-                          : "text-cyan-400"
+                  ? "text-red-400"
+                  : line.isWarning
+                    ? "text-amber-400"
+                    : line.isSuccess
+                      ? "text-emerald-400"
+                      : line.isOutput
+                        ? "text-slate-400"
+                        : "text-cyan-400"
                   }`}
               >
                 {text}
@@ -274,10 +274,10 @@ export default function Home() {
             className="group relative inline-flex items-center gap-3 px-12 py-6 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105"
           >
             {/* Button glow */}
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity" />
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity pointer-events-none" />
 
             {/* Button background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 rounded-2xl" />
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-500 rounded-2xl pointer-events-none" />
 
             {/* Button content */}
             <span className="relative text-white drop-shadow-lg">Describe an Incident</span>

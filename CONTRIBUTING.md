@@ -4,9 +4,8 @@ First off, thank you for considering contributing to Sentinel! 🛡️
 
 ## 🚀 Quick Start for Contributors
 
-```bash
 # Fork and clone
-git clone https://github.com/yourusername/sentinel.git
+git clone https://github.com/BakaAayush/tambo-sentinel.git
 cd sentinel
 
 # Install dependencies
